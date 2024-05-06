@@ -29,10 +29,10 @@ const shuffleNightcore = () => {
     }
   })
 
-  const lasts: string[] = [sentence.slice(-1)[0], sentence.slice(-2)[0], sentence.slice(-3)[0]]
+  const lasts: string[] = [sentence.slice(-1)[0], sentence.slice(-2)[0]]
 
   lasts.sort(() => Math.random() - 0.5)
-  sentence.splice(-3)
+  sentence.splice(-2)
   sentence.push(...lasts)
 
   return sentence
