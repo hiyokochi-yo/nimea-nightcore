@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <div className="card">
-        <a href={`https://twitter.com/intent/tweet?text=${nightcore.join('')}&url=https://nimea-takuo.vercel.app`} target="_blank" rel="noopener noreferrer">Tweet</a>
+        <a href={`https://twitter.com/intent/tweet?text=${nightcore.join('')}&url=https://nimea-nightcore.vercel.app`} target="_blank" rel="noopener noreferrer">Tweet</a>
         <a href="https://twitter.com/NimeaTakuo" target="_blank" rel="noopener noreferrer">@NimeaTakuo</a>
       </div>
     </>
