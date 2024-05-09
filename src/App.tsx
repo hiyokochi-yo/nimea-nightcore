@@ -2,6 +2,15 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { tokens } from './tokens'
 
+function shuffle(arr: string[]) {
+  for (let i = arr.length - 1; 0 < i; i--) {
+    const r = Math.floor(Math.random() * i);
+    const tmp = arr[r];
+    arr[r] = arr[i];
+    arr[i] = tmp;
+  }
+}
+
 const shuffleNightcore = () => {
   const ids: number[] = []
   const names: string[] = []
@@ -28,15 +37,6 @@ const shuffleNightcore = () => {
   })
 
   return sentence
-}
-
-function shuffle(arr: string[]) {
-  for (let i = arr.length - 1; 0 < i; i--) {
-    const r = Math.floor(Math.random() * i);
-    const tmp = arr[r];
-    arr[r] = arr[i];
-    arr[i] = tmp;
-  }
 }
 
 function App() {
