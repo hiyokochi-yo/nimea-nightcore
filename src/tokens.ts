@@ -103,7 +103,7 @@ export const tokens = [
     pronunciation: 'カラ'
   },
   {
-    word_id: 110,
+    word_id: 100,
     word_type: 'UNKNOWN',
     word_position: 18,
     surface_form: 'mp3',
@@ -201,9 +201,9 @@ export const tokens = [
     pos_detail_3: '*',
     conjugated_type: '*',
     conjugated_form: '*',
-    basic_form: '*',
-    reading: '*',
-    pronunciation: '*'
+    basic_form: 'ナイトコア',
+    reading: 'ナイトコア',
+    pronunciation: 'ナイトコア'
   },
   {
     word_id: 92030,
@@ -329,23 +329,38 @@ export const tokens = [
     word_id: 3324130,
     word_type: 'KNOWN',
     word_position: 46,
-    surface_form: 'あるの',
-    pos: '動詞+名詞',
+    surface_form: 'ある',
+    pos: '動詞',
     pos_detail_1: '自立',
     pos_detail_2: '*',
     pos_detail_3: '*',
     conjugated_type: '五段・ラ行',
     conjugated_form: '基本形',
-    basic_form: 'あるの',
-    reading: 'アルノ',
-    pronunciation: 'アルノ'
+    basic_form: 'ある',
+    reading: 'アル',
+    pronunciation: 'アル'
+  },
+  {
+    word_id: 63730,
+    word_type: 'KNOWN',
+    word_position: 48,
+    surface_form: 'の',
+    pos: '名詞',
+    pos_detail_1: '非自立',
+    pos_detail_2: '一般',
+    pos_detail_3: '*',
+    conjugated_type: '*',
+    conjugated_form: '*',
+    basic_form: 'の',
+    reading: 'ノ',
+    pronunciation: 'ノ'
   },
   {
     word_id: 22680,
     word_type: 'KNOWN',
     word_position: 49,
-    surface_form: 'まじで',
-    pos: '助動詞+助動詞',
+    surface_form: 'まじ',
+    pos: '助動詞',
     pos_detail_1: '*',
     pos_detail_2: '*',
     pos_detail_3: '*',
@@ -356,11 +371,26 @@ export const tokens = [
     pronunciation: 'マジ'
   },
   {
+    word_id: 23710,
+    word_type: 'KNOWN',
+    word_position: 51,
+    surface_form: 'で',
+    pos: '助動詞',
+    pos_detail_1: '*',
+    pos_detail_2: '*',
+    pos_detail_3: '*',
+    conjugated_type: '特殊・ダ',
+    conjugated_form: '連用形',
+    basic_form: 'だ',
+    reading: 'デ',
+    pronunciation: 'デ'
+  },
+  {
     word_id: 505510,
     word_type: 'KNOWN',
     word_position: 52,
-    surface_form: 'やばいな',
-    pos: '形容詞+助詞',
+    surface_form: 'やばい',
+    pos: '形容詞',
     pos_detail_1: '自立',
     pos_detail_2: '*',
     pos_detail_3: '*',
@@ -370,4 +400,19 @@ export const tokens = [
     reading: 'ヤバイ',
     pronunciation: 'ヤバイ'
   },
+  {
+    word_id: 92470,
+    word_type: 'KNOWN',
+    word_position: 55,
+    surface_form: 'な',
+    pos: '助詞',
+    pos_detail_1: '終助詞',
+    pos_detail_2: '*',
+    pos_detail_3: '*',
+    conjugated_type: '*',
+    conjugated_form: '*',
+    basic_form: 'な',
+    reading: 'ナ',
+    pronunciation: 'ナ'
+  }
 ]
