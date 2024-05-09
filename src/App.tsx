@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { tokens } from './tokens'
 
-
-
 const shuffleNightcore = () => {
   const ids: number[] = []
   const names: string[] = []
@@ -28,12 +26,6 @@ const shuffleNightcore = () => {
       sentence.push(names.pop())
     }
   })
-
-  const lasts: string[] = [sentence.slice(-1)[0], sentence.slice(-2)[0]]
-
-  lasts.sort(() => Math.random() - 0.5)
-  sentence.splice(-2)
-  sentence.push(...lasts)
 
   return sentence
 }
